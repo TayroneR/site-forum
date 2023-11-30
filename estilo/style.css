@@ -1,0 +1,104 @@
+
+
+:root{
+    --cor0: #FFFFFF;
+    --cor1: #A8A6B8;
+    --cor2: #8074FD;
+    --cor3: #322F41;
+    --cor4: #1B182A;
+    --cor5: #020012;
+    --cor6: #9374FD;
+    --cor7: #05021d;
+
+    --fonte-padrao: ;
+    --fonte-destaque: ;
+    --fonte-efeito: ;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor4);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #05021d;
+    background-image: linear-gradient(to bottom, var(--cor7), var(--cor5));
+    
+}
+
+header h1 {
+    color: var(--cor0);
+    padding: 10px;
+}
+
+nav {
+    background-color: var(--cor5);
+    padding: 10px;
+}
+
+
+nav a {
+    color: var(--cor1);
+    padding: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav > a:hover {
+    background-color: var(--cor6);
+    color: var(--cor5);
+}
+
+main{
+    background-color: var(--cor3);
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 30px;
+    min-width: 300px;
+    max-width: 870px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+main p {
+    color: var(--cor1);
+}
+
+aside h2 {
+    background-color: var(--cor5);
+    color: var(--cor1);
+    margin-bottom: 13px;
+    width: 170px;
+    text-align: center;
+    border-radius: 13px;
+}
+
+div h2 {
+    background-color: var(--cor5);
+    color: var(--cor1);
+    margin-bottom: 13px;
+    width: 120px;
+    text-align: center;
+    border-radius: 13px;
+}
+
+aside p {
+    padding-left: 13px;
+    margin-bottom: 13px;
+}
+
+p {
+    margin-bottom: 12px;
+}
+
+footer {
+    background-color: var(--cor5);
+    color: var(--cor1);
+    text-align: center;
+}
